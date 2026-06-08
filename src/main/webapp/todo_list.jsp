@@ -7,7 +7,7 @@
 <meta charset="UTF-8">
 <link rel="stylesheet"
 	href="css/bootstrap.min.css" />
-<title>一覧画面うっふーーーーーん</title>
+<title>一覧画面でやんす</title>
 </head>
 <body>
 
