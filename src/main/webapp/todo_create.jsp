@@ -30,7 +30,7 @@
               <div class="mb-3">
                 <label for="todoTitle" class="form-label fw-bold small text-secondary">タイトル <span class="text-danger">*</span></label>
                 <input type="text" class="form-control" id="todoTitle" required placeholder="ToDoのタイトルを入力してください" maxlength="100" name="title">
-                <div class="invalid-feedback">タイトルは必須入力です。</div>
+                <div class="invalid-feedback">タイトルは必須入力です</div>
               </div>
 
               <!-- Detail -->
