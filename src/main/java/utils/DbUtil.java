@@ -16,7 +16,7 @@ public class DbUtil {
 		try {
 			Context initContext = new InitialContext();
 			Context envContext = (Context) initContext.lookup("java:/comp/env");
-			DataSource ds = (DataSource) envContext.lookup("jdbc/mariadb");
+			DataSource ds = (DataSource) envContext.lookup("jdbc/mysql");
 			con = ds.getConnection();
 		} catch (NamingException ne) {
 			System.err.println("コンテキストの取得に失敗");
