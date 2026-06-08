@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Context displayName="Sample Java" path="/sample" docBase="sample"
     reloadable="true" crossContext="true">
-    <Resource name="jdbc/mariadb"
+    <Resource name="jdbc/mysql"
         auth="Container"
         type="javax.sql.DataSource"
         username="sample"
-        password="root"
+        password="sample"
         driverClassName="org.mariadb.jdbc.Driver"
         url="jdbc:mariadb://localhost:3306/todo?useUnicode=true&amp;characterEncoding=utf8"
         maxActive="4"
